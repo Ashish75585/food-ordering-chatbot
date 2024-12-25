@@ -44,10 +44,26 @@ A chatbot built using **Dialogflow** and **Flask** that allows users to order fo
     "user": "your-username",
     "password": "your-password",
     "database": "food_order"  # Change this to your actual database name
-}
+}  
 5. Run the Application
 ```bash
 python app.py
 ```
-The app should now be running at `http://127.0.0.1:5000`.
-   
+The app should now be running at `http://127.0.0.1:5000`.  
+
+6. Testing with Dialogflow
+   - Set up Dialogflow and link the webhook URL (your Flask server).
+   - You can use Dialogflow's testing interface to interact with the chatbot.
+  
+### 🤝 Contributing
+Feel free to raise issues and contribute improvements!
+
+### 📝 Acknowledgments
+- **Dhaval Patel**
+- **Code Basics**
+
+### 📧 Contact
+For any questions, feel free to reach out:
+- **Email:** ashish75585@gmail.com
+- **LinkedIn:** [LinkedIn](https://www.linkedin.com/in/ashish-yadav-b88913264/).
+
