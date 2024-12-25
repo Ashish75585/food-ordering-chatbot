@@ -48,6 +48,6 @@ A chatbot built using **Dialogflow** and **Flask** that allows users to order fo
 5. Run the Application
 ```bash
 python app.py
-
+```
 The app should now be running at `http://127.0.0.1:5000`.
    
