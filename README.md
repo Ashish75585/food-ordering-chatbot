@@ -28,4 +28,26 @@ A chatbot built using **Dialogflow** and **Flask** that allows users to order fo
    ```bash
    git clone https://github.com/Ashish75585/food-ordering-chatbot.git
    cd food-ordering-chatbot
+2. Install Dependencies:
+   ```bash
+   pip install -r requirements.txt
+
+3. Set Up the Database
+   - Open MySQL Workbench and create a new database.
+   - Run the SQL script located at scripts/setup_database.sql (or wherever you have your database setup scripts). This will create the    necessary tables in the database.
+
+4. Configure Database Connection
+   Edit the db.py (or equivalent) file to match your MySQL database credentials:
+   ```python
+   DB_CONFIG = {
+    "host": "localhost",
+    "user": "your-username",
+    "password": "your-password",
+    "database": "food_order"  # Change this to your actual database name
+}
+5. Run the Application
+```bash
+python app.py
+
+The app should now be running at `http://127.0.0.1:5000`.
    
